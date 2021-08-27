@@ -80,8 +80,8 @@ p {
   width: 1px;
   background: #a8a8a8;
   margin-top: -10px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* Number */
@@ -115,3 +115,24 @@ p {
   color: #ff4d4d;
   font-size: 50px;
 }
+
+/* Select Label */
+.select-label {
+  color: white;
+  font-size: 1.25rem;
+  font-family: poppins;
+  margin-right: 20px;
+}
+
+.select-country-container {
+  display: flex;
+  margin-right: 50px;
+  justify-content: flex-end;
+}
+
+.select-country {
+  font-size: 1rem;
+  padding: 5px 10px 5px 10px;
+}
+
+.
