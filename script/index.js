@@ -15,6 +15,7 @@ const critical_case_dom = document.getElementById("critical");
 const active_case_dom = document.getElementById("active");
 
 const select_country_dom = document.getElementById("select");
+const header_dom = document.getElementById("header");
 
 const numberWithCommas = (x) => {
   return x.toLocaleString();
@@ -72,6 +73,7 @@ const updateElementData = (new_country) => {
     recovered,
     active,
   } = covid_data[new_country];
+
   all_case_dom.innerText = numberWithCommas(cases);
   today_case_dom.innerText = "+" + numberWithCommas(todayCases);
   death_case_dom.innerText = numberWithCommas(deaths);
@@ -80,6 +82,8 @@ const updateElementData = (new_country) => {
   daily_recover_dom.innerText = "+" + numberWithCommas(todayRecovered);
   critical_case_dom.innerText = numberWithCommas(critical);
   active_case_dom.innerText = numberWithCommas(active);
+
+  header_dom.innerText = new_country.toUpperCase() + " COVID-19 SITUATION";
 };
 
 select_country_dom.onchange = () => {
