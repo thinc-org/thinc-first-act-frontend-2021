@@ -28,16 +28,16 @@
           <p id="total-cases" class="case"></p>
           <div class="horizontal-line"></div>
 
-          <div class="case-type-container">
+          <div style="display: flex">
             <!-- Active -->
-            <div>
+            <div class="case-type-container">
               <h2 class="title" style="margin-top: 10px">active</h2>
               <p id="active"></p>
             </div>
             <div class="vertical-line"></div>
 
             <!-- Critical -->
-            <div>
+            <div class="case-type-container">
               <h2 class="title" style="margin-top: 10px">critical</h2>
               <p id="critical"></p>
             </div>
@@ -74,7 +74,12 @@
         <select id="select" class="select-country"></select>
       </div>
       <div class="ref-container">
-        <h2 class="ref-text">Data from <a class="ref-text" href="https://disease.sh" target="_blank">disease.sh</a></h2>
+        <h2 class="ref-text">
+          Data from
+          <a class="ref-text" href="https://disease.sh" target="_blank"
+            >disease.sh</a
+          >
+        </h2>
       </div>
     </div>
     <script src="script/index.js" type="text/javascript"></script>

@@ -12,8 +12,7 @@ body {
 }
 
 .case-type-container {
-  display: flex;
-  justify-content: center;
+  width: 240px;
 }
 
 /* Text */
@@ -32,7 +31,7 @@ p {
   font-weight: 600;
   font-family: poppins;
   text-align: center;
-  font-size: 44px;
+  font-size: 38px;
 }
 
 .title {
@@ -73,6 +72,7 @@ p {
 .horizontal-line {
   height: 1px;
   background: #a8a8a8;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -108,12 +108,12 @@ p {
 
 #active {
   color: #3e78a7;
-  font-size: 50px;
+  font-size: 45px;
 }
 
 #critical {
   color: #ff4d4d;
-  font-size: 50px;
+  font-size: 45px;
 }
 
 /* Select Label */
@@ -136,7 +136,7 @@ p {
 }
 
 .ref-text {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .ref-container {
