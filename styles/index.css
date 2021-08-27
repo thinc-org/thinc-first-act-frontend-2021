@@ -135,4 +135,13 @@ p {
   padding: 5px 10px 5px 10px;
 }
 
-.
+.ref-text {
+  color: #FFFFFF;
+}
+
+.ref-container {
+  display: flex;
+  margin-top: 40px;
+  font-family: poppins;
+  justify-content: center;
+}
